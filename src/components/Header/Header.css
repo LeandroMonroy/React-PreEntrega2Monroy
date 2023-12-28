@@ -1,0 +1,8 @@
+.headerContainer {
+  background-color: white;
+  background-image: url("../../img/bannerBackground2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}

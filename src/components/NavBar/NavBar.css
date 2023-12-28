@@ -1,0 +1,33 @@
+.nav-container {
+  height: 80px;
+  background-color: var(--pikachu-yellow);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-logo {
+  background-image: url("../../img/LogoPokemon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+  width: 200px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding-left: var(--sz-10);
+  padding-right: var(--sz-10);
+  width: 80%;
+}
+
+.nav-link {
+  font-size: var(--sz-5);
+  color: var(--ligh-gray);
+  padding: var(--sz-4);
+  text-decoration: none;
+}
